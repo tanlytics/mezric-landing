@@ -27,7 +27,7 @@ The generated site is in `dist/`.
 1. Create a new GitHub repository named `mezric-landing` and push this folder to its `main` branch. Do not push it into the Franlytics repository.
 2. In GitHub, open **Settings > Pages** and set **Build and deployment > Source** to **GitHub Actions**.
 3. The workflow in `.github/workflows/deploy.yml` installs dependencies, builds `dist/`, and deploys it with the official Pages actions.
-4. The workflow builds with `/` because the site is configured for the custom domain `https://mezric.com/`. If you deploy only at the project URL, remove the workflow `VITE_BASE_PATH` override so Vite uses `/mezric-landing/`.
+4. Production assets use relative paths so both the project URL `https://tanlytics.github.io/mezric-landing/` and the custom domain `https://mezric.com/` work.
 
 Do not use a repository secret for the Tally form ID. The published Tally form URL is public by design and is configured in `src/App.tsx`.
 
