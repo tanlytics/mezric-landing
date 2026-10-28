@@ -1,0 +1,29 @@
+# Mezric
+
+> Growth intelligence with ecommerce context for advertising and store-performance teams.
+
+Mezric is a read-only growth intelligence workspace for ecommerce operators, growth teams, agencies, and founders. It connects advertising performance, store context, data health, and evidence-backed investigation so teams can understand what changed and decide what to review next.
+
+## Product
+
+- Google Ads and Meta Ads monitoring
+- Shopify and ecommerce performance context
+- Spend, revenue, ROAS, CPA, conversions, and delivery signals
+- Evidence-backed insights with comparison windows and data coverage
+- Campaign-level investigation
+- Scheduled performance and insight reports
+
+## Current status
+
+Mezric is inviting selected participants to a free founding pilot. The product starts read-only and does not change campaigns automatically.
+
+## Official pages
+
+- Homepage: https://www.mezric.com/
+- Pilot waitlist: https://www.mezric.com/#waitlist
+- FAQ: https://www.mezric.com/#faq
+- Product roadmap: https://www.mezric.com/#roadmap
+
+## Contact and usage
+
+Use the homepage waitlist for pilot access and product updates. Product claims and roadmap details are subject to change as the founding pilot develops.

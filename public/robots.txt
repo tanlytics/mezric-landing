@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mezric.com/sitemap.xml
+Sitemap: https://www.mezric.com/sitemap.xml

@@ -27,7 +27,7 @@ The generated site is in `dist/`.
 1. Create a new GitHub repository named `mezric-landing` and push this folder to its `main` branch. Do not push it into the Franlytics repository.
 2. In GitHub, open **Settings > Pages** and set **Build and deployment > Source** to **GitHub Actions**.
 3. The workflow in `.github/workflows/deploy.yml` installs dependencies, builds `dist/`, and deploys it with the official Pages actions.
-4. Production assets use relative paths so both the project URL `https://tanlytics.github.io/mezric-landing/` and the custom domain `https://mezric.com/` work.
+4. Production assets use relative paths so both the project URL `https://tanlytics.github.io/mezric-landing/` and the custom domain `https://www.mezric.com/` work.
 
 Do not use a repository secret for the Tally form ID. The published Tally form URL is public by design and is configured in `src/App.tsx`.
 
@@ -65,8 +65,8 @@ New submissions will be added as rows automatically. See the current Tally guide
 
 ## Custom domain
 
-1. This repository already includes `public/CNAME` with `mezric.com`.
-2. In GitHub, open **Settings > Pages > Custom domain** and enter `mezric.com` if it is not detected automatically.
+1. This repository already includes `public/CNAME` with `www.mezric.com`.
+2. In GitHub, open **Settings > Pages > Custom domain** and enter `www.mezric.com` if it is not detected automatically.
 3. At your domain provider, add the four GitHub Pages `A` records for the apex domain: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`.
 4. Wait for DNS verification, then enable HTTPS in GitHub Pages. DNS changes can take time to propagate.
 
